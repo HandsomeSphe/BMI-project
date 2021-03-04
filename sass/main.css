@@ -1,0 +1,125 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: rgba(0, 0, 0, 0.6);
+  max-height: 50vh;
+}
+
+.container {
+  width: 100%;
+  height: 89vh;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 1;
+          flex: 0 0 1;
+}
+
+.left__image {
+  width: 100%;
+  height: auto;
+}
+
+.results {
+  width: 70%;
+  height: 30vh;
+  background-color: white;
+  padding: 1.7rem;
+  margin: 1.3rem 1rem 1.3rem 5rem;
+}
+
+.right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 50%;
+          flex: 0 0 50%;
+}
+
+.right__image {
+  width: 100%;
+  height: auto;
+}
+
+.right__mass {
+  width: 65%;
+  height: auto;
+  margin: 2.4rem .5rem 1rem 1rem;
+  padding: .6rem;
+  text-align: center;
+}
+
+.right__mass:active, .right__mass:focus {
+  outline: none;
+}
+
+.right__height {
+  width: 65%;
+  height: auto;
+  margin: 0rem .5rem 3.5rem 1rem;
+  padding: .6rem;
+  text-align: center;
+}
+
+.right__height:active, .right__height:focus {
+  outline: none;
+}
+
+button {
+  color: rgba(211, 211, 211, 0.2);
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 4rem;
+  cursor: pointer;
+  padding: .4rem;
+  border: none;
+}
+
+button:active,
+button:focus {
+  outline: none;
+}
+
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 3rem 5rem 3rem 5rem;
+}
+
+.bmi {
+  padding: 1.3rem 1rem;
+  width: 100%;
+  background-color: white;
+  font-family: Old standard TT;
+  font-size: 2.3rem;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+}
+/*# sourceMappingURL=main.css.map */
